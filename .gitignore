@@ -8,6 +8,8 @@
 *.suo
 *.opensdf
 
+*.VC.*
+
 /Binaries/*
 /Build/*
 /DerivedDataCache/*
