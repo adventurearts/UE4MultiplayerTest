@@ -8,7 +8,7 @@ void UPGameInstance::JoinURLGame(FString URL)
 {
 	APlayerController *pc = GetWorld()->GetFirstPlayerController();
 
-	pc->ClientTravel(URL, ETravelType::TRAVEL_Absolute, true);
+	pc->ClientTravel(URL, ETravelType::TRAVEL_Relative, true);
 }
 
 void UPGameInstance::HostMatch(FString Level)
